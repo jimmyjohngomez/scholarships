@@ -1,0 +1,218 @@
+i{
+    margin-right:10px;
+}
+body{
+    font-family:'lato', sans-serif;
+    font-weight:300 ;
+}
+header{
+    background-image: linear-gradient(to bottom, hsla(100, 50%, 50%, .45), hsla(300, 50%, 50%, .45)), url("http://unsplash.it/1000/500?image=491");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    color:white;
+    padding-bottom:150px;
+    padding-top:100px;
+    background-attachment:fixed;
+    
+}
+.clearfix::before,
+.clearfix::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.btn{
+    padding:15px 30px;
+    border: 1px solid white;
+    border-radius:7.5px;
+    text-transform:uppercase;
+    font-weight: 400;
+}
+
+
+nav ul{
+    float:right;
+}
+nav h1{
+    float:left;
+}
+a{
+    text-decoration:none;
+    color:inherit;
+}
+nav li{
+    display:inline-block;
+    margin:30px;
+}
+header div{
+    width:35%;
+    text-align:center;
+    margin:0 auto;
+}
+header div h2{
+    font-size:300%;
+}
+header div p{
+    font-size:130%;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 400;
+    
+}
+nav{
+    margin-bottom:100px;
+}
+section, footer{
+    padding:100px 0;
+    background-color:lightgray;
+
+}
+#story{
+    padding-bottom:0;
+     
+}
+#story #contentOne:first-child{
+    width:40%;
+    text-align:center;
+    margin:0 auto;
+    float:left;
+}
+#story #contentTwo{
+    width:40%;
+    text-align:center;
+    margin:0 auto;
+    float:right;
+}
+#story #contentThree{
+    width:40%;
+    text-align:center;
+    margin:0 auto;
+    float:left;
+}
+#story h2{
+    font-size:250%;
+}
+#story p{
+    font-size:120%;
+}
+#story img{
+    width:100%;
+    border-radius:7.5px 7.5px 0px 0px;
+    float:left;
+}
+#story div:last-child{
+     border-radius:7.5px 7.5px 0px 0px;
+     background-color:white;
+     padding:20px 20px 0 20px;
+     width:65%;
+     margin:0 auto;
+}
+#traits li{
+    width:calc(100%/3);
+    float:left;
+    list-style:none; 
+}
+#traits i{
+    font-size:225%;
+    width:70px;
+    height:70px;
+    color:black;
+    border:1px solid gray;
+    border-radius:7.5px;
+    text-align:center;
+    line-height:70px;
+    float:left;
+    margin-right:30px;
+}
+#traits div{
+    padding-left:100px;
+}
+#hobbies ul{
+    display:table;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+#hobbies li{
+    display:inline-table;
+    width: calc(100%/3 - 20px);
+    background-color:white;
+    margin:0 10px 10px;
+    box-sizing:border-box;
+    border-radius:7.5px;
+    text-align:center;
+    overflow:hidden;
+}
+#hobbies{
+    background-color:#ddd;
+}
+#hobbies > div{
+    text-align:center;
+    margin-bottom:30px;
+}
+#hobbies li img{
+    width:100%;
+}
+#hobbies li div{
+    padding:10px;
+}
+#hobbies li p{
+    margin-bottom:30px;
+}
+.gray{
+    border-color:gray;
+    display:inline-block;
+    
+}
+#cta{
+    background-color:#32ada1;
+    text-align:center;
+}
+#cta h2{
+    color:white;
+    display:inline;
+    font-size:150%;
+}
+#cta a{
+    border-style:solid;
+    border-color:white;
+    color:white;
+    margin-left:20px;
+}
+footer ul{
+    display:table;
+    margin:25px auto;
+    padding:0;
+}
+footer li{
+    display:inline-table;
+    margin:0 10px;
+    
+}
+footer{
+    text-align:center;
+}
+footer ul:first-child i{
+    height:30px;
+    width:30px;
+    border:1px solid white;
+    border-radius: calc(7.5px/2);
+    text-align:center;
+    line-height:30px;
+}
+footer ul:last-of-type a{
+    border-bottom:1px dotted black;
+}
+
+nav{
+    margin-bottom:150px;
+    position:fixed;
+    width:100%;
+    top:0;
+    
+}
+header h2{
+    margin:0;
+    
+}
